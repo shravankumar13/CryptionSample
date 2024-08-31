@@ -1,0 +1,28 @@
+/* Add border around the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are not doubled */
+  }
+  
+  /* Border for table headers */
+  .mat-header-cell {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px; /* Add some padding */
+  }
+  
+  /* Border for table cells */
+  .mat-cell {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px; /* Add some padding */
+  }
+  
+  /* Border for table rows */
+  .mat-row {
+    border-bottom: 1px solid #ddd; /* Light gray border */
+  }
+  
+  /* Optional: Border for the table itself */
+  .mat-table {
+    border: 1px solid #ddd; /* Light gray border around the table */
+  }
+  
